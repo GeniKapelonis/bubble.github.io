@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="w3bsite.css">
+<link rel="stylesheet" href="webbb.css">
+<link rel="stylesheet" href="webbb.js">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.navbar {
+    overflow: hidden;
+    background-color:rgba(0,0,0,.65);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: grey;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: Black; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
+
+
+body {
+    background-color: #FFFFFF;
+}
+
+.header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+
+
+</style>
+</head>
+<body>
+
+
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+
+
+
+</script>
+
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+   /*  height: 300px; Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+h1 {
+  font-size: 100px;
+  text-shadow: 2px 2px 5px gray;
+
+}
+a:link {
+    color: #ff1493;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+</style>
+</head>
+<h1>
+<center>
+
+Hunger
+
+</center>
+</h1>
+<div class="row">
+
+  <div class="column" stlye="background-color:#;">
+    <a href= 'http://www.feedingamerica.org/research/hunger-in-america/key-findings.html'target="_blank">'
+    <img src="hun1.jpg" style="float: center; width: 100%; margin-right: 1%; margin-bottom: 0.5em; background-color:">
+    </a>
+    <a href= 'https://www.baitulmaal.org/povertyhunger/'target="_blank">'
+    <img src="hun4.jpg" style="float: center; width: 100%; margin-right: 1%; margin-bottom: 0.5em; background-color:">
+    </a>
+  </div>
+  <div class="column" style="background-color:;">
+<p>Over 41 million Americans are hungry. 13 million are childeren. Families struggle to make ends meet and put food on the table.
+  The people affected most are our veterans, people with disabilities, seniors, children.
+  In 2015, 5.4 million seniors struggled to afford enough to eat. As of 2016, 40.6 million people live in poverty.
+22.8 million ] of people ages 18-64 live in poverty.
+13.3 million children under the age of 18 live in poverty.
+4.6 million seniors 65 and older live in poverty.
+The official poverty rate is 12.7 percent, based on the U.S. Census Bureau’s 2016 estimates.
+An estimated 43.1 million Americans lived in poverty.
+ The poverty rate was 14.0 percent.
+ According to official poverty statistics, 14.3% of Californians lacked enough resources  for a family of four  in 2016.
+ The rate has declined from 15.3% in 2015. It is still higher than the most recent low of 12.4% in 2007.
+
+</p>
+  </div>
+  <div class="column" style="background-color:#;">
+    <a href= 'https://www.indivisiblechesco.org/2017/08/did-you-eat-today/'target="_blank">'
+    <img src="hun2.jpg" style="float: center; width: 100%; margin-right: 1%; margin-bottom: 0.5em; background-color:">
+    </a>
+    <a href= '  http://www.ruralhome.org/sct-information/rural-voices/691'target="_blank">'
+    <img src="hun3.jpg" style="float: center; width: 100%; margin-right: 1%; margin-bottom: 0.5em; background-color:">
+    </a>
+
+  </div>
+</div>
+
+</body>

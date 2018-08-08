@@ -1,0 +1,419 @@
+@import url("//fonts.googleapis.com/css?family=Poiret+One|Josefin+Sans");
+
+html,body {
+color:#fddaec;
+font-family:"Josefin Sans", sans-serif;
+font-size:100%;
+height:100%;
+line-height:1.45;
+}
+
+.navbar{
+  list-style-type: none;
+  float: left; /* Keeps the elements side by side*/
+  margin-bottom: 10; /* fix the spacing to allow the menu to be at the bottom */
+  width:100%;
+}
+
+.logo-img{
+  float: right;
+  margin: 0px 0px 0 0px; /* fixed the spacing. */
+  width:50px;
+  height:50px;
+
+}
+
+div.c-wrapper{
+   width: 80%; /* for example */
+   margin: auto;
+}
+
+
+
+/* Video Overlay */
+/*
+#overlay {
+background-color:rgba(100,50,0,.65);
+height:100%;
+left:0;
+position:relative;
+top:0;
+transition:background-color 300ms ease;
+width:100%;
+}
+*/
+
+.fade { background-color:rgba(0,0,0,.85) !important; }
+
+
+
+/* Hero Video + Fallback */
+
+.carousel{
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+.big-logo {
+  width:600px;
+  length:500px;
+  opacity: 0.7;
+  filter: alpha(opacity=50);
+}
+
+.bigImage {
+  width: 100%;
+  length: 700px;
+  opacity: 0.6;
+
+}
+
+
+
+
+.red {
+  width: 100%;
+  height: 1000px;
+  opacity: 0.6;
+  vertical-align: bottom;
+}
+.blue {
+  width: 100%;
+  height: 800px;
+  opacity: 0.6;
+  vertical-align: bottom;
+}
+
+.myCenter{
+  text-align: center;
+  top: 70%;
+}
+.myMyCenter{
+  top: 14%;
+}
+
+.words{
+  position: absolute;
+  color:white;
+  top: 14%;
+  left: 46%;
+  font-size: 70px;
+  font-family: Impact;
+}
+
+.myMyMyMyWords{
+  position: absolute;
+  color:white;
+  top: 14%;
+  left: 62%;
+  font-size: 70px;
+  font-family: Impact;
+}
+
+.wordsNow{
+  position: relative;
+  color:whiteSmoke;
+  font-size: 40px;
+  font-family: Garamond;
+
+}
+
+.meWords{
+  position: relative;
+  color:whiteSmoke;
+  font-size: 55px;
+  font-family: impact;
+
+}
+
+.myMyWords{
+  position: absolute;
+  color:whiteSmoke;
+  top: 32%;
+  left: 14%;
+  font-size: 70px;
+  font-family: Impact;
+}
+.myMyMyWords{
+  position: absolute;
+  color:white;
+  top: 12%;
+  left: 10%;
+  font-size: 70px;
+  font-family: Impact;
+}
+
+.wordsNowNow{
+  position: relative;
+  color:whiteSmoke;
+  font-size: 40px;
+  font-family: Impact;
+
+}
+
+.wordsNowNowNow{
+  position: absolute;
+  color:white;
+  top: 45%;
+  left: 32%;
+  font-size: 70px;
+  font-family: Impact;
+}
+
+.myMy{
+  position: absolute;
+  color:white;
+  top: 14%;
+  left: 10%;
+  font-size: 70px;
+  font-family: Impact;
+}
+
+
+div.transbox {
+  margin: 400px;
+  background-color: #ffffff;
+  opacity: 0.6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+
+.nowImm{
+  position: absolute;
+  color:white;
+  top: 43%;
+  left: 43%;
+  font-size: 70px;
+  font-family: Impact;
+}
+
+.nowHunger{
+  position: absolute;
+  color:white;
+  top: 43%;
+  left: 27%;
+  font-size: 70px;
+  font-family: Impact;
+}
+
+.nowMass{
+  position: absolute;
+  color:white;
+  top: 43%;
+  left: 39%;
+  font-size: 70px;
+  font-family: Impact;
+}
+
+.nowHom{
+  position: absolute;
+  color:white;
+  top: 43%;
+  left: 40%;
+  font-size: 70px;
+  font-family: Impact;
+}
+
+
+.par1 {
+
+    position: center;
+    color:white;
+    top: 50%;
+    left: 50%;
+    bottom: 50%;
+    font-size: 100px;
+    font-family: Impact;
+
+}
+.par2 {
+
+    position: center;
+    color:white;
+    top: 70%;
+    left: 50%;
+    bottom: 50%;
+    font-size: 100px;
+    font-family: Impact;
+
+}
+
+.par3 {
+
+    position: absolute;
+    color:white;
+    top: 70%;
+    left: 50%;
+    bottom: 50%;
+    font-size: 100px;
+    font-family: Impact;
+
+}
+
+.img-container {
+   background-color: #000000;
+   width: 100%;
+   height: 1000px;
+   opacity: 0.5;
+   vertical-align: bottom;
+  }
+.img-container img { opacity: 0.5; }
+
+/* First image (Logo. Full height) */
+
+
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+}
+
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+    background-image: url('https://cdn.thecrazytourist.com/wp-content/uploads/2018/04/ccimage-shutterstock_1029981307.jpg');
+    min-height: 760PX;
+    width: 100%;
+}
+
+.bgimg-2 {
+    background-image: url('https://www.teenlife.com/media/uploads/listings/where-there-be-dragons-2-3/z71uDWiooC51.jpg');
+    min-height: 760PX;
+    width: 100%;
+}
+
+.bgimg-3 {
+    background-image: url('https://media.istockphoto.com/photos/teamwork-couple-climbing-helping-hand-picture-id475294806?k=6&m=475294806&s=612x612&w=0&h=5RJZXSISiyB_xKt671TDQ_Wq6uRSF800HUvX0cVJOzs=');
+    min-height: 760PX;
+    width: 100%;
+}
+
+.bgimg-4 {
+    background-image: url('https://cdn-images-1.medium.com/max/2000/1*yhGaAY637d-xOuipcoiIgw.jpeg');
+    min-height: 760PX;
+    width: 100%;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+
+#hero-vid {
+backface-visibility:hidden;
+background: no-repeat scroll 0 0 #000;
+background-size:cover;
+bottom:0;
+height:auto;
+min-height:100%;
+min-width:100%;
+perspective:1000;
+position:fixed;
+right:0;
+width:auto;
+z-index:-1;
+}
+
+#hero-pic {
+display:block;
+height:auto;
+width:100%;
+}
+
+#state {
+bottom:0;
+cursor:pointer;
+font-size:2.25rem;
+left:0;
+line-height:1;
+padding:2rem 2.5rem 1.65rem;
+position:absolute;
+}
+
+
+/* Content Styles */
+
+#title {
+backface-visibility:hidden;
+left:0;
+perspective:1000;
+position:fixed;
+width:100%;
+}
+
+#title h1 {
+background-color:rgba(0,0,0,.5);
+font-family:"Poiret One", sans-serif;
+font-size:2.5rem;
+padding:1rem 1.75rem;
+}
+
+#content {
+background-color:#151515;
+position:relative;
+z-index:1;
+}
+
+#contentOne {
+background-color:#151515;
+height:1000px;
+position:relative;
+z-index:1;
+}
+
+.btn {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+
+}
+
+
+#content p {
+font-size:1.25rem;
+letter-spacing:.02rem;
+
+}
+
+
+/* Media Queries */
+
+@media only screen and (max-width:768px) {
+    #overlay { height:auto; }
+}
+
+
+/* Visibility Helpers */
+
+@media only screen and (min-width:769px) {
+    .visible-mobile,.visible-tablet,.hidden-desktop { display:none !important; }
+}
+
+@media only screen and (min-width:480px) and (max-width:768px) {
+    .visible-mobile,.hidden-tablet,.visible-desktop { display:none !important; }
+}
+
+@media only screen and (max-width:479px) {
+    .hidden-mobile,.visible-tablet,.visible-desktop { display:none !important; }
+}
